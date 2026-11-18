@@ -1,70 +1,116 @@
 {
-  "title": "Shop our collections",
+  "title": "Fine Indian jewellery",
   "hero": {
-    "region": "Featured collections",
-    "role": "carousel",
-    "previous": "Previous slide",
-    "next": "Next slide",
-    "pause": "Pause the slides",
-    "play": "Play the slides",
-    "goTo": "Go to slide {n}",
-    "first": "Our latest collection, shop now",
-    "second": "Shop the collection",
-    "third": "Explore more of the shop"
+    "eyebrow": "Handpicked Indian Jewellery",
+    "title": "Timeless Elegance,",
+    "accent": "Crafted for You",
+    "lead": "Discover jewellery that celebrates every moment.",
+    "explore": "Explore Collection",
+    "favourites": "Shop Favourites",
+    "imageAlt": "A woman in an ivory saree wearing a gold necklace set with rubies and pearls",
+    "pointOne": "Temple & kundan designs",
+    "pointTwo": "Secure checkout",
+    "pointThree": "Help on WhatsApp"
   },
-  "newest": "New Arrivals",
-  "newestEmpty": "New arrivals are on their way. Check back soon.",
-  "featured": "Featured Products",
+  "newest": {
+    "eyebrow": "Just In",
+    "title": "New Arrivals",
+    "empty": "New arrivals are on their way. Check back soon."
+  },
+  "favourites": {
+    "eyebrow": "Loved by Our Customers",
+    "title": "Customer Favourites",
+    "lead": "The pieces our customers keep coming back for."
+  },
   "viewAll": "View all products",
-  "promises": {
-    "title": "Why shop with us",
-    "craft": {
-      "title": "Chosen with Care",
-      "body": "Every piece is picked for its quality and finish"
+  "categories": {
+    "eyebrow": "Explore by Category",
+    "title": "Find Your Signature Piece",
+    "explore": "Explore"
+  },
+  "campaigns": {
+    "eyebrow": "Curated Edits",
+    "title": "Jewellery for Every Celebration",
+    "shop": "Shop the edit",
+    "bridal": {
+      "tag": "Bridal Collection",
+      "title": "Heirlooms for your forever day",
+      "alt": "A bride in an ivory saree wearing an emerald and kundan choker"
     },
-    "stage": {
-      "title": "For Every Occasion",
-      "body": "Something for everyday wear and special days alike"
+    "festive": {
+      "tag": "Festive Collection",
+      "title": "Jhumkas that dance with you",
+      "alt": "Gold jhumkas with emeralds and pearls on green velvet"
     },
-    "secure": {
-      "title": "Secure Checkout",
-      "body": "Pay safely through trusted payment partners"
+    "everyday": {
+      "tag": "Everyday Elegance",
+      "title": "Delicate pieces, worn daily",
+      "alt": "Rose gold bracelets on a marble stand"
     },
-    "support": {
-      "title": "Here to Help",
-      "body": "Questions about an order? Get in touch with us"
+    "traditional": {
+      "tag": "Traditional Jewellery",
+      "title": "Temple gold, timeless craft",
+      "alt": "A row of gold temple bangles set with rubies and emeralds"
     }
   },
   "collections": {
-    "eyebrow": "Shop by Category",
-    "title": "Explore Our Collections",
-    "explore": "Explore"
+    "eyebrow": "Shop by Collection",
+    "title": "Curated Collections",
+    "lead": "Stories in gold, stone and pearl, gathered for the way you celebrate.",
+    "necklace": {
+      "title": "The Necklace Edit",
+      "body": "Kundan, temple and stone-set necklace sets, from chokers to long haarams.",
+      "alt": "Four necklace and earring sets in gold, ruby and emerald"
+    },
+    "rings": {
+      "title": "Rings of Brilliance",
+      "body": "Coloured stones in rose gold settings, made to be stacked or worn alone.",
+      "alt": "Rose gold rings with amethyst, citrine and topaz stones on a red velvet stand"
+    },
+    "bracelets": {
+      "title": "Bracelets & Kadas",
+      "body": "From whisper-thin chains to statement kadas for the festive season.",
+      "alt": "A woman wearing a gold kada set with rubies and emeralds"
+    },
+    "action": "Shop the collection"
   },
-  "deals": {
-    "eyebrow": "Handpicked for you"
-  },
-  "spotlight": {
-    "eyebrow": "Featured Collection",
-    "body": "Discover the pieces in this collection, chosen for their quality and craft.",
-    "cta": "Shop all {name}"
+  "promises": {
+    "eyebrow": "The Promise",
+    "title": "Why Shop With Us",
+    "quality": {
+      "title": "Premium Quality",
+      "body": "Every piece is checked for finish, stones and shine"
+    },
+    "secure": {
+      "title": "Secure Payments",
+      "body": "Pay safely through trusted payment partners"
+    },
+    "easy": {
+      "title": "Easy Shopping",
+      "body": "Simple browsing, a saved wishlist and quick checkout"
+    },
+    "support": {
+      "title": "Customer Support",
+      "body": "Real people on WhatsApp to help you choose"
+    },
+    "trusted": {
+      "title": "Trusted Jewellery",
+      "body": "Clear pricing and honest product photos"
+    }
   },
   "story": {
     "eyebrow": "Our Story",
-    "title": "Made with care,",
-    "accent": "chosen for you.",
-    "lead": "We bring together pieces we love, chosen for their quality, their craft and the way they make you feel.",
-    "body": "Whether you are shopping for yourself or for someone special, every item in our collection is picked to look as good as it feels.",
-    "more": "Explore the collection"
+    "title": "The art of jewellery,",
+    "accent": "the beauty of tradition.",
+    "lead": "We celebrate jewellery through timeless designs, elegant craftsmanship and a passion for making every occasion memorable.",
+    "more": "Read our story"
   },
-  "range": {
-    "eyebrow": "Explore the Range",
-    "title": "Find Exactly What You Need",
-    "shopAll": "Shop all {name}"
-  },
-  "signup": {
-    "eyebrow": "Join us",
-    "title": "Shop faster with an account",
-    "body": "Create an account for faster checkout, order tracking and saved addresses.",
-    "action": "Create Account"
+  "newsletter": {
+    "eyebrow": "Join the Community",
+    "title": "Be the first to see new collections",
+    "body": "Create a free account to save your wishlist, check out faster and follow your orders. For new arrivals and styling help, message us on WhatsApp.",
+    "action": "Create Account",
+    "whatsapp": "Message us on WhatsApp",
+    "imageAlt": "A cream jewellery box with the store's name on golden silk"
   }
 }

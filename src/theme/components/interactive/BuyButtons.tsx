@@ -16,6 +16,7 @@ export const BuyButtons = ({ page }: { page: ProductPage }) => {
   const { t } = useStorefront()
   const [addedId, setAddedId] = useState<string | null>(null)
   const [failed, setFailed] = useState(false)
+  const [quantity, setQuantity] = useState(1)
   const [gift, setGift] = useState<GiftRecipient>({ recipientName: '', recipientEmail: '', sendOn: '', message: '' })
   const version = page.version
   const kind = page.product?.kind
@@ -61,6 +62,27 @@ export const BuyButtons = ({ page }: { page: ProductPage }) => {
           {t('shop.product.gift.needed')}
         </p>
       ) : null}
+      {isGift ? null : (
+        <div className={styles.quantityRow}>
+          <p className={styles.optionName}>{t('shop.product.quantity')}</p>
+          <div className={styles.stepper} role="group" aria-label={t('shop.product.quantity')}>
+            <button type="button" className={styles.step} aria-label={t('shop.product.less')} disabled={quantity <= 1} onClick={() => setQuantity(Math.max(1, quantity - 1))}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M6 12h12" />
+              </svg>
+            </button>
+            <span className={styles.stepValue} aria-live="polite">
+              {quantity}
+            </span>
+            <button type="button" className={styles.step} aria-label={t('shop.product.more')} disabled={quantity >= 10} onClick={() => setQuantity(Math.min(10, quantity + 1))}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 6v12M6 12h12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
+      <div className={styles.buyRow}>
       {inCart ? (
         <Link href="/cart/" className={shop.primary} ref={goToCart}>
           {t('shop.product.goToCart')}
@@ -68,6 +90,7 @@ export const BuyButtons = ({ page }: { page: ProductPage }) => {
       ) : (
         <AddToCart
           versionId={version?.id ?? null}
+          quantity={isGift ? 1 : quantity}
           disabled={!buyable}
           gift={isGift ? gift : null}
           describedBy={waitsForRecipient ? why : undefined}
@@ -83,11 +106,12 @@ export const BuyButtons = ({ page }: { page: ProductPage }) => {
         </AddToCart>
       )}
       {isGift ? null : (
-        <BuyNow versionId={version?.id ?? null} disabled={!buyable} className={shop.secondary} onDone={(bought) => setFailed(!bought)}>
+        <BuyNow versionId={version?.id ?? null} quantity={quantity} disabled={!buyable} className={shop.secondary} onDone={(bought) => setFailed(!bought)}>
           {t('shop.product.buyNow')}
         </BuyNow>
       )}
       {page.product ? <WishlistHeart productId={page.product.id} name={page.product.name} versionId={version?.id ?? null} /> : null}
+      </div>
       {failed || added ? (
         <p className={styles.added} role="status">
           {failed ? t('shop.product.addFailed') : t('shop.product.added')}

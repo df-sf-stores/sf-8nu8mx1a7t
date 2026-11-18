@@ -45,7 +45,20 @@
     "title": "Our policies",
     "lead": "The terms that apply when you shop with us.",
     "legal": "Legal notice",
-    "ask": "Questions about this policy? Get in touch and we will answer."
+    "ask": "Questions about this policy? Get in touch and we will answer.",
+    "home": "Home",
+    "eyebrow": "Customer care",
+    "sections": "On this page",
+    "draftTitle": "Draft for business review",
+    "draftBody": "{store} is finalising this policy. Points marked “To be confirmed” are not yet in force; if one matters to your order, ask us before you buy.",
+    "toConfirm": "To be confirmed",
+    "others": "Our policies",
+    "read": "Read policy",
+    "supportEyebrow": "We are here to help",
+    "supportTitle": "Questions about our policies?",
+    "supportLead": "Message us before you order or after it arrives. We are happy to explain anything on this page.",
+    "supportAction": "Contact us",
+    "whatsapp": "Chat on WhatsApp"
   },
   "notFound": {
     "title": "We can’t find that page",
@@ -58,46 +71,84 @@
     "lead": "The shop is closed for now. Please come back later."
   },
   "about": {
-    "eyebrow": "Our Story",
-    "title": "About {store}",
-    "lead": "Welcome to {store}. Here is a little about who we are and what we do.",
+    "eyebrow": "About Us",
+    "title": "The Art of Jewellery,",
+    "accent": "The Beauty of Tradition",
+    "lead": "{store} celebrates the beauty of jewellery through timeless designs, elegant craftsmanship and a passion for making every occasion memorable.",
+    "imageAlt": "A woman in an ivory saree adjusting a gold jhumka earring",
     "story": {
-      "eyebrow": "Who we are",
-      "title": "A shop built on",
-      "accent": "care and quality",
-      "first": "We started {store} to bring together pieces we love and believe in. Every item in our shop is chosen with care, so you can shop with confidence.",
-      "second": "We are always adding to our collections, and we are glad to hear what you would like to see next. Thank you for shopping with us."
+      "eyebrow": "Our Story",
+      "title": "Jewellery that belongs",
+      "accent": "to your moments",
+      "first": "Every celebration has a piece of jewellery at its heart: the necklace chosen for a wedding, the jhumkas worn to a festival, the ring that marks a promise. {store} exists to help you find those pieces.",
+      "second": "We bring together necklaces, earrings, jhumkas, bangles, bracelets and rings inspired by Indian tradition, chosen for how they look, how they feel and how they make you feel.",
+      "imageAlt": "A woman wearing a ring set with a purple stone"
     },
-    "promise": {
-      "eyebrow": "Our Promise",
-      "title": "More than just products",
-      "body": "We want every order to be a pleasure, from the moment you browse to the moment it arrives.",
-      "designs": {
-        "title": "Thoughtful Choices",
-        "body": "Pieces picked for their design and the way they are made."
-      },
+    "philosophy": {
+      "eyebrow": "Our Philosophy",
+      "title": "Tradition, worn your way",
+      "body": "We believe heritage designs deserve a place in modern life. Temple motifs, kundan settings and pearl drops are chosen to pair as beautifully with a silk saree as with everyday wear."
+    },
+    "pillars": {
+      "eyebrow": "What We Stand For",
+      "title": "Our Commitments",
       "quality": {
-        "title": "Lasting Quality",
-        "body": "Made to be used, enjoyed and kept."
+        "title": "Our Commitment to Quality",
+        "body": "Each piece is checked for its finish, its stones and its shine before it reaches you."
       },
-      "service": {
-        "title": "Friendly Service",
-        "body": "Real people ready to help with your order."
+      "craft": {
+        "title": "Traditional Craftsmanship",
+        "body": "We favour designs rooted in Indian jewellery traditions: temple work, kundan, filigree and pearl."
+      },
+      "promise": {
+        "title": "Our Promise to Customers",
+        "body": "Clear prices, honest photos, secure payments and real people ready to help on WhatsApp."
       }
     },
+    "craftImageAlt": "A woman wearing a gold kada and matching earrings",
     "visit": {
-      "title": "Visit Our Store",
-      "lead": "Come see the collection in person.",
-      "whatsapp": "Chat on WhatsApp"
+      "title": "Visit or Write to Us",
+      "lead": "Questions about a piece or an order? We are happy to help.",
+      "whatsapp": "Chat on WhatsApp",
+      "contact": "Contact us"
     },
-    "closing": "Thank you for choosing {store}."
+    "closing": "Thank you for choosing {store}.",
+    "shop": "Explore the collection"
   },
   "contact": {
-    "title": "Get in touch",
-    "lead": "Questions about an order or anything else? Write to us and we will reply.",
+    "eyebrow": "We are here to help",
+    "title": "Contact Us",
+    "lead": "Questions about a piece, an order or a custom requirement? Reach us the way that suits you.",
     "email": "Email",
+    "emailLead": "Write to us any time",
     "phone": "Phone",
-    "visit": "Visit"
+    "phoneLead": "Call us during business hours",
+    "whatsapp": "WhatsApp",
+    "whatsappLead": "The quickest way to reach us",
+    "whatsappAction": "Start a chat",
+    "visit": "Visit",
+    "visitLead": "Our address",
+    "form": {
+      "eyebrow": "Send an Enquiry",
+      "title": "How can we help?",
+      "lead": "Fill in your details and your message opens in WhatsApp, ready to send to us.",
+      "name": "Your name",
+      "phone": "Your mobile number",
+      "topic": "What is it about?",
+      "message": "Your message",
+      "optional": "Optional",
+      "send": "Send on WhatsApp",
+      "needed": "Add your name and a message to send your enquiry.",
+      "intro": "Hello, my name is {name}.",
+      "phoneLine": "My number is {phone}.",
+      "topicLine": "About: {topic}.",
+      "topics": {
+        "product": "A product",
+        "order": "An order",
+        "custom": "A custom requirement",
+        "other": "Something else"
+      }
+    }
   },
   "content": {
     "loading": "Loading the page",

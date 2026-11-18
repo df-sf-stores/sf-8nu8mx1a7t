@@ -2,15 +2,65 @@
   "nav": {
     "label": "Main",
     "menu": "Menu",
+    "close": "Close menu",
     "submenu": "Submenu: {item}",
     "home": "Home",
-    "shopAll": "Shop all",
-    "about": "About",
-    "contact": "Contact"
+    "shopAll": "Shop All",
+    "jewellery": "Jewellery",
+    "about": "About Us",
+    "contact": "Contact",
+    "mega": {
+      "eyebrow": "Shop by Category",
+      "all": "View all jewellery",
+      "featureEyebrow": "The Bridal Edit",
+      "featureTitle": "Heirlooms for your forever day",
+      "featureAction": "Discover now",
+      "allProducts": "All Products",
+      "allBlurb": "Every piece in the collection"
+    }
+  },
+  "announce": {
+    "label": "Store highlights",
+    "exclusive": "Exclusive Jewellery Collections",
+    "secure": "Secure Payments",
+    "quality": "Premium Quality",
+    "support": "Customer Support"
+  },
+  "categories": {
+    "necklace": {
+      "label": "Necklace",
+      "query": "necklace",
+      "blurb": "Statement chokers and layered haarams"
+    },
+    "earrings": {
+      "label": "Earrings",
+      "query": "earring",
+      "blurb": "Drops, studs and chandbalis"
+    },
+    "rings": {
+      "label": "Rings",
+      "query": "ring",
+      "blurb": "Stones set to catch the light"
+    },
+    "bangles": {
+      "label": "Bangles",
+      "query": "bangle",
+      "blurb": "Temple gold and kundan kadas"
+    },
+    "bracelets": {
+      "label": "Bracelets",
+      "query": "brac",
+      "blurb": "Delicate pieces for every day"
+    },
+    "jhumka": {
+      "label": "Jhumka",
+      "query": "jimmiki",
+      "blurb": "Bell-shaped classics from South India"
+    }
   },
   "tools": {
     "search": "Search",
-    "searchPrompt": "Search products…",
+    "searchPrompt": "Search necklaces, jhumkas, bangles…",
     "account": "Account",
     "wishlist": "Wishlist",
     "wishlistCount": "Wishlist, {count, plural, one {# item} other {# items}}",
@@ -18,19 +68,32 @@
     "cartCount": "Cart, {count, plural, one {# item} other {# items}}"
   },
   "footer": {
-    "note": "Thank you for shopping with us.",
+    "note": "Jewellery that celebrates every moment: timeless designs, elegant craftsmanship and pieces made to be treasured.",
     "shop": "Shop",
-    "all": "Shop all",
+    "all": "All Products",
+    "service": "Customer Service",
+    "company": "Company",
+    "follow": "Stay Connected",
+    "followLead": "Questions, styling advice or order help: we are a message away.",
     "help": "Help",
-    "shipping": "Shipping",
-    "returns": "Returns",
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "shipping": "Shipping Policy",
+    "returns": "Return Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
     "legal": "Legal",
     "touch": "Get in touch",
-    "orders": "My orders",
-    "faq": "FAQs",
+    "orders": "My Orders",
+    "faq": "FAQ",
     "whatsapp": "Chat with us on WhatsApp",
-    "rights": "© 2026 {store}. All rights reserved."
+    "whatsappShort": "WhatsApp",
+    "call": "Call us",
+    "payments": "We accept",
+    "upi": "UPI",
+    "cards": "Cards",
+    "netbanking": "Netbanking",
+    "rights": "© 2026 {store}. All rights reserved.",
+    "poweredBy": "Powered by",
+    "dripfunnel": "DripFunnel",
+    "dripfunnelUrl": "https://www.dripfunnel.com/in/"
   }
 }

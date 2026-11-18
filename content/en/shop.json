@@ -6,11 +6,20 @@
     "from": "From",
     "soldOut": "Sold out",
     "noPicture": "No picture yet",
-    "view": "View details"
+    "view": "View details",
+    "add": "Add to Cart",
+    "quick": "Quick View",
+    "quickLabel": "Quick view of {name}",
+    "close": "Close",
+    "off": "{percent}% off",
+    "inStock": "In stock",
+    "details": "View full details",
+    "choose": "Choose options and add to cart on the product page.",
+    "save": "Save to wishlist"
   },
   "listing": {
     "heading": "Products",
-    "showing": "{count, plural, one {Showing # product} other {Showing # products}}",
+    "showing": "{count, plural, one {# product} other {# products}}",
     "filters": "Filters",
     "filtersShown": "Hide filters",
     "clear": "Clear filters",
@@ -19,8 +28,8 @@
     "sorts": {
       "featured": "Featured",
       "newest": "Newest",
-      "priceLow": "Price, low to high",
-      "priceHigh": "Price, high to low",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
       "name": "Name"
     },
     "price": "Price",
@@ -31,18 +40,29 @@
     "loading": "Loading products",
     "failed": "We couldn't load these products",
     "failedLead": "Check your connection and try again.",
-    "retry": "Try again"
+    "retry": "Try again",
+    "category": "Category",
+    "allCategories": "All Jewellery",
+    "availability": "Availability",
+    "inStockOnly": "In stock only",
+    "discount": "Discount",
+    "onOffer": "On offer",
+    "refineNote": "Refines the products loaded so far.",
+    "apply": "Show results",
+    "close": "Close filters"
   },
   "collection": {
     "all": "All products",
-    "allLead": "Everything in the shop.",
+    "allLead": "Necklaces, earrings, jhumkas, bangles, bracelets and rings, crafted to celebrate every moment.",
     "loading": "Loading the collection",
     "missing": "We can't find that collection",
     "missingLead": "It may have moved or been taken down.",
     "browse": "Browse all products",
-    "empty": "Nothing here yet",
-    "emptyLead": "There are no products to show here yet. Come back soon.",
-    "home": "Go to the home page"
+    "empty": "This collection is coming soon",
+    "emptyLead": "We are adding new pieces here. Explore the rest of our jewellery in the meantime, or message us for something specific.",
+    "home": "Go to the home page",
+    "eyebrow": "The Collection",
+    "others": "Explore other categories"
   },
   "search": {
     "title": "Search the shop",
@@ -52,7 +72,12 @@
     "placeholder": "What are you looking for?",
     "button": "Search",
     "none": "No products match \"{query}\"",
-    "noneLead": "Check the spelling, try a shorter word, or browse a collection."
+    "noneLead": "Check the spelling, try a shorter word, or browse a collection.",
+    "eyebrow": "Search",
+    "category": "{name} Collection",
+    "categoryLead": "Explore our {name} pieces, chosen for craft, shine and the moments they are made for.",
+    "categoryEmpty": "Our {name} collection is coming soon",
+    "categoryEmptyLead": "We are adding new {name} pieces. Explore the rest of our jewellery in the meantime, or message us for something specific."
   },
   "product": {
     "loading": "Loading the product",
@@ -69,7 +94,7 @@
     "delivery": "Delivery and returns",
     "warranty": "Warranty",
     "questions": "Questions",
-    "related": "You may also like",
+    "related": "You May Also Like",
     "add": "Add to cart",
     "buyNow": "Buy now",
     "added": "Added to your cart.",
@@ -88,7 +113,21 @@
       "sendHintExpiry": "We email it that morning. Leave it empty to send it now. It can be used for {months, plural, one {# month} other {# months}} after it's sent.",
       "add": "Add gift card to cart",
       "needed": "Add the recipient's name and email to add this gift card."
-    }
+    },
+    "quantity": "Quantity",
+    "less": "One fewer",
+    "more": "One more",
+    "secure": "Secure payments",
+    "support": "Help on WhatsApp",
+    "quality": "Quality checked",
+    "shippingTitle": "Shipping & Returns",
+    "shippingBody": "Delivery charges and estimated times are shown at checkout before you pay. Read our policies for the full details.",
+    "shippingLink": "Shipping policy",
+    "returnsLink": "Return policy",
+    "ask": "Ask about this piece on WhatsApp",
+    "previous": "Previous picture",
+    "next": "Next picture",
+    "details": "Product Details"
   },
   "cart": {
     "title": "Your cart",
